@@ -1,0 +1,58 @@
+/* --- Google Fonts --- */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:400,700");
+
+/* --- FontAwesom --- */
+@import url("https://use.fontawesome.com/reases/v5.0.10/css/all.css");
+
+
+/* --- Components design --- */
+@import url("components/cards.css");
+@import url("components/navbar.css");
+@import url("components/banner.css");
+
+/* --- Fonts & colors --- */
+body {
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  margin: 0;
+}
+h1, h2, h3 {
+  font-family: "Poppins", "sans-serif";
+}
+h5{
+  font-weight: 700;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+body{
+  margin: 0;
+}
+
+.contenedor{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Container media queries */
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+}
+
